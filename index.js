@@ -1,7 +1,15 @@
 import React from 'react'
 import { render } from 'react-dom'
-import Main from './lib/main'
+import { Router, Route, hashHistory } from 'react-router'
+import Main from './lib/Main'
+import Blog from './lib/Blog'
+import Projects from './lib/Projects'
+import Todos from './lib/Todos'
 
 render((
-  <Main name="Boilerplate"/>
+  <Router history={ hashHistory }>
+    <Route path="/" component={ Main } />
+    <Route path="/blog" component={ Blog } />
+    <Route path="/projects" component={ Projects } />
+  </Router>
 ), document.getElementById('app'))
