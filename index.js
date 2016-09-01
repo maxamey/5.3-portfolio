@@ -8,8 +8,14 @@ import Todos from './lib/Todos'
 
 render((
   <Router history={ hashHistory }>
-    <Route path="/" component={ Main } />
-    <Route path="/blog" component={ Blog } />
-    <Route path="/projects" component={ Projects } />
+    <Route path="/"
+           component={ Main } />
+    <Route path="/blog"
+           component={ Blog } />
+    <Route path="/projects"
+           component={ Projects }>
+      <Route path="/todos"
+             component={ Todos }/>
+    </Route>
   </Router>
 ), document.getElementById('app'))

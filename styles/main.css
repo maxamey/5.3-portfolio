@@ -1,3 +1,7 @@
 /*
   Main Stylesheet
 */
+
+* {
+  box-sizing: border-box;
+}
