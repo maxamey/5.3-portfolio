@@ -13,9 +13,8 @@ render((
     <Route path="/blog"
            component={ Blog } />
     <Route path="/projects"
-           component={ Projects }>
-      <Route path="/todos"
-             component={ Todos }/>
-    </Route>
+           component={ Projects } />
+    <Route path="/todos"
+           component={ Todos } />
   </Router>
 ), document.getElementById('app'))

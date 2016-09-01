@@ -1,0 +1,12 @@
+/*
+  Styling for Projects
+*/
+
+.projects {
+  width: 680px;
+}
+.project__thumbnail {
+  border: 2px solid rgb(70, 36, 70);
+  height: 150px;
+  width: 150px;
+}

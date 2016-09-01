@@ -5,3 +5,111 @@
 * {
   box-sizing: border-box;
 }
+html {
+  background-color: rgb(243, 243, 243);
+  text-align: center;
+}
+
+.main__container {
+  display: inline-block;
+  font-family: Helvetica, sans-serif;
+  text-align: left;
+  width: 680px;
+}
+
+.main__header {
+  display: inline-block;
+  height: 160px;
+  margin-top: 20px;
+  position: relative;
+  width: 100%;
+}
+
+.main__nav {
+  display: inline-block;
+  height: 140px;
+  width: 100%;
+}
+
+.maxPicture {
+  border: 3px solid rgb(71, 179, 157);
+  border-radius: 50%;
+  height: 130px;
+  left: 0px;
+  position: absolute;
+  top: 30px;
+}
+
+.maxPicture:hover {
+  border-width: 6px;
+}
+
+.title__name {
+  color: rgb(70, 36, 70);
+  font-size: 22px;
+  font-weight: normal;
+  display: inline-block;
+  margin: 0px;
+  text-align: center;
+  text-decoration: none;
+  width: 130px;
+}
+
+.main__nav--right {
+
+  text-align: right;
+
+}
+
+.navLink {
+  color: rgb(70, 36, 70);
+  font-size: 20px;
+  line-height: 40px;
+  margin: 4px 20px;
+  padding: 0px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.navLink:hover {
+  border-bottom: 3px solid rgb(71, 179, 157);
+}
+
+.mediaBar {
+
+}
+
+.github {
+
+}
+
+.twitter {
+
+}
+
+.instagram {
+
+}
+
+.email {
+
+}
+
+.bio__container {
+
+}
+
+.bio {
+  color: rgb(70, 36, 70);
+  font-weight: lighter;
+  padding-top: 16px;
+}
+
+.bio__title {
+  font-weight: lighter;
+  margin: 16px 0px 8px 0px;
+}
+
+.bio__content {
+
+  line-height: 28px;
+}
