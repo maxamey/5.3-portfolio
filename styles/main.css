@@ -2,9 +2,20 @@
   Main Stylesheet
 */
 
+/*
+  colors:
+    - 70	36	70 - dark purple
+    - 176	95	109 - dark pink
+    - 235	107	86 - red-orange
+    - 255	193	83 - yellow
+    - 71	179	157	- turquoise
+
+*/
+
 * {
   box-sizing: border-box;
 }
+
 html {
   background-color: rgb(243, 243, 243);
   text-align: center;
@@ -41,7 +52,7 @@ html {
 }
 
 .maxPicture:hover {
-  border-width: 6px;
+  border-color: rgb(255, 193, 83);
 }
 
 .title__name {
@@ -105,6 +116,7 @@ html {
 }
 
 .bio__title {
+  border-bottom: 3px solid rgb(235, 107, 86);
   font-weight: lighter;
   margin: 16px 0px 8px 0px;
 }
